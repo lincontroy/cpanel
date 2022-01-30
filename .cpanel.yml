@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/futurepl/lifegeegs.com/cpanel
+    - /bin/cp -R * $DEPLOYPATH
